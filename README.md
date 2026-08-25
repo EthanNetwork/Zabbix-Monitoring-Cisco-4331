@@ -52,3 +52,10 @@ show running-config | section access-list
 - Host added to Zabbix with the SNMPv3 interface and Cisco IOS template
 - ICMP/ping monitoring confirmed working end-to-end from Zabbix to the router
 - Zabbix monitoring is configured but SNMP polling isn't fully functional end-to-end because my test environment sits behind a restrictive firewall; I left firewall changes out of scope for this iteration and documented the setup steps above for when that's opened up.
+
+
+
+![Zabbix host config](Screenshot_20260825_141151.png)
+![EnableGlobalScripts fix](Screenshot_20260825_143855.png)
+![Successful ping check](Screenshot_20260825_143913.png)
+![Router SNMP verification](Screenshot_20260825_145604.png)
