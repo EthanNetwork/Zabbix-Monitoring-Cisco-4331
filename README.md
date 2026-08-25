@@ -53,6 +53,8 @@ show running-config | section access-list
 - ICMP/ping monitoring confirmed working end-to-end from Zabbix to the router
 - Zabbix monitoring is configured but SNMP polling isn't fully functional end-to-end because my test environment sits behind a restrictive firewall; I left firewall changes out of scope for this iteration and documented the setup steps above for when that's opened up.
 
+- Note to edit: The firewall issues are a limitation of my home router being inaccessible for config changes, and the settings on that device don't allow for full snmp end to end
+
 
 
 ![Zabbix host config](Screenshot_20260825_141151.png)
